@@ -34,11 +34,12 @@ RUN apt-get update \
     # Install Python Libraries
     && pip --disable-pip-version-check --no-cache-dir install jupyter \ 
     && pip --disable-pip-version-check --no-cache-dir install matplotlib \
-    && pip --disable-pip-version-check --no-cache-dir install pillow \	
     && pip --disable-pip-version-check --no-cache-dir install requests \
     && pip --disable-pip-version-check --no-cache-dir install scikit-learn \
-    && pip --disable-pip-version-check --no-cache-dir install scikit-image \
-    && pip --disable-pip-version-check --no-cache-dir install scipy \
+    && pip --disable-pip-version-check --no-cache-dir install bottleneck==1.3.2 \
+    && pip --disable-pip-version-check --no-cache-dir install pandas==0.23.4 \
+    && pip --disable-pip-version-check --no-cache-dir install numpy==1.16.2 \
+    && pip --disable-pip-version-check --no-cache-dir install pyarrow==0.12.0 \
     && pip --disable-pip-version-check --no-cache-dir install azureml-sdk[notebooks,automl,explain] \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
