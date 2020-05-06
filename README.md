@@ -9,7 +9,7 @@ The exercises are designed to be completed in Visual Studio Codespaces. To compl
 
 - A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a>.
 - A Visual Studio Codespaces environment. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
-   1. Open [this link](https://online.visualstudio.com/environments/new?name=ai-fundamentals&repo=GraemeMalcolm/azureml) in a new tab and create a Visual Studio Codespaces environment. If prompted, sign in using the Microsoft account associated with your Azure subscription.
+   1. Open [this link](https://online.visualstudio.com/environments/new?name=azureml&repo=GraemeMalcolm/azureml) in a new tab and create a Visual Studio Codespaces environment. If prompted, sign in using the Microsoft account associated with your Azure subscription.
     2. If you don't already have a Visual Studio Codespaces billing plan, create one. This is used to track resource utilization by your Visual Studio Codespaces environments. Then create an environment with the following settings:
         - **Environment Name**: *A name for your environment - for example, **explore-azureml**.*
         - **Git Repository**: GraemeMalcolm/azureml

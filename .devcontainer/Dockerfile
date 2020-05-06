@@ -36,8 +36,6 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install matplotlib \
     && pip --disable-pip-version-check --no-cache-dir install pillow \	
     && pip --disable-pip-version-check --no-cache-dir install requests \
-    && pip --disable-pip-version-check --no-cache-dir install numpy \
-    && pip --disable-pip-version-check --no-cache-dir install pandas \
     && pip --disable-pip-version-check --no-cache-dir install scikit-learn \
     && pip --disable-pip-version-check --no-cache-dir install scikit-image \
     && pip --disable-pip-version-check --no-cache-dir install scipy \
